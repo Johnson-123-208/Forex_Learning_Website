@@ -1,0 +1,123 @@
+# FOREX LEARNING APP - MASTER CONTENT GENERATION PROMPTS
+
+Detailed below are three master prompts designed to generate expert-level, high-fidelity curriculum data for your trading platform. 
+
+Instructions for usage:
+1. Use an advanced LLM (Claude 3.5 Sonnet or GPT-4o).
+2. Paste ONE prompt at a time.
+3. If the AI cuts off, type "Continue exactly from where you left off".
+4. Copy the resulting JavaScript code directly into your `src/data/modules-full.js` file.
+
+---
+
+### PROMPT 1: TECHNICAL FOUNDATIONS & ADVANCED PRICE ACTION (MODULES 5-8)
+
+Role: You are a Senior Quantitative Analyst and Price Action Specialist. 
+Task: Generate expert-grade educational content for Modules 5, 6, 7, and 8 of a professional Forex curriculum.
+
+Requirements:
+- Output Format: JavaScript objects for the 'modules' array.
+- Tone: Institutional, analytical, and professional.
+- Content Depth: Minimum 600 words per lesson. Use HTML tags (<h3>, <p>, <ul>, <li>) and CSS classes (.info-box, .warning-box, .tip-box).
+- Include complex calculations and historical examples.
+
+Modules to generate:
+5. Candlestick Patterns: Anatomy, momentum signatures, absorption, and indeision (Doji vs. Pinbar institutional logic).
+6. Chart Patterns: Beyond basics—Wyckoff Accumulation/Distribution, Harmonic patterns (Gartley/Bat), and head-and-shoulders liquidity traps.
+7. Technical Analysis: Fibonacci confluence (extensions/retracements), Standard Deviation levels, and Volume Profile analysis.
+8. Smart Money Concepts (SMC): Institutional Order Flow, Order Blocks, Mitigation Blocks, Fair Value Gaps (FVG), and Liquidity Inducement.
+
+Code structure to follow:
+{
+  id: [Number],
+  title: "[Expert Title]",
+  icon: "[Lucide Icon Name]",
+  lessonCount: 4,
+  difficulty: "[Intermediate/Advanced]",
+  time: "2.5h",
+  lessons: [
+    {
+      id: "M.L",
+      title: "[Lesson Title]",
+      content: `[RICH HTML CONTENT]`,
+      quiz: [{ question: "...", options: ["...", "..."], answer: 0, explanation: "..." }]
+    }
+  ]
+}
+
+---
+
+### PROMPT 2: MACRO DYNAMICS & PROFESSIONAL RISK ETHICS (MODULES 9-12)
+
+Role: You are a Central Bank Economist and Risk Manager for a Multi-Strategy Hedge Fund.
+Task: Generate high-fidelity educational content for Modules 9, 10, 11, and 12.
+
+Requirements:
+- Output Format: JavaScript objects for the 'modules' array.
+- Tone: Institutional "Street" level expertise.
+- Content Depth: Minimum 600 words per lesson. Use HTML tags (<h3>, <p>, <ul>, <li>) and CSS classes (.info-box, .warning-box, .tip-box).
+- Must include: Mathematical formulas, spread-sheet logic for position sizing, and psychological "bias" identification.
+
+Modules to generate:
+9. Indicators & Oscillators: Mastering RSI Divergence, ATR (Average True Range) for volatility-based stops, and Bollinger Band Squeezes.
+10. News Trading (Fundamental Analysis): NFP (Non-Farm Payrolls), CPI, FOMC "Red Folder" event mechanics, and managing "slippage" during announcements.
+11. Risk Management (CRITICAL): Kelly Criterion, Fixed Fractional Position Sizing, Daily Loss Limits, and the "Equity Curve" management.
+12. Trading Psychology: Probabilistic thinking (Mark Douglas logic), the "Amygdala Hijack," and overcoming Greed/Fear through mechanical routines.
+
+Code structure to follow:
+{
+  id: [Number],
+  title: "[Expert Title]",
+  icon: "[Lucide Icon Name]",
+  lessonCount: 4,
+  difficulty: "[Intermediate/Advanced]",
+  time: "2.5h",
+  lessons: [
+    {
+      id: "M.L",
+      title: "[Lesson Title]",
+      content: `[RICH HTML CONTENT]`,
+      quiz: [{ question: "...", options: ["...", "..."], answer: 0, explanation: "..." }]
+    }
+  ]
+}
+
+---
+
+### PROMPT 3: STRATEGY EXECUTION & INSTITUTIONAL FUNDING (MODULES 13-16)
+
+Role: You are a Chief Investment Officer and Prop Firm Evaluator.
+Task: Generate practical, high-impact educational content for Modules 13, 14, 15, and 16.
+
+Requirements:
+- Output Format: JavaScript objects for the 'modules' array.
+- Tone: Institutional, actionable, and tactical.
+- Content Depth: Minimum 600 words per lesson. Use HTML tags (<h3>, <p>, <ul>, <li>) and CSS classes (.info-box, .warning-box, .tip-box).
+- Emphasize multi-timeframe confluence and passing prop firm evaluations.
+- Include logic for algorithmic trading and script automation.
+
+Modules to generate:
+13. Trading Strategies: Step-by-step mechanical strategy (e.g., London Open Breakout or New York Killzone Setup).
+14. Multi-Timeframe Analysis: TOP-DOWN mapping—Using Monthly for context, Daily for direction, and M15 for execution.
+15. AI & Automation: Introduction to Python-based trading bots, Expert Advisors (EAs), and backtesting optimization.
+16. Prop Firms & Funding: Passing FTMO/Topstep/MyForexFunds. Rules of drawdown, consistency targets, and institutional scaling.
+
+Code structure to follow:
+{
+  id: [Number],
+  title: "[Expert Title]",
+  icon: "[Lucide Icon Name]",
+  lessonCount: 4,
+  difficulty: "[Intermediate/Advanced]",
+  time: "2.5h",
+  lessons: [
+    {
+      id: "M.L",
+      title: "[Lesson Title]",
+      content: `[RICH HTML CONTENT]`,
+      quiz: [{ question: "...", options: ["...", "..."], answer: 0, explanation: "..." }]
+    }
+  ]
+}
+
+Ensure all HTML styling classes (.info-box, .warning-box) are used properly to make the content look premium.

@@ -1,0 +1,21 @@
+export const glossary = [
+  { term: "Pip", definition: "The smallest unit of price movement in a currency pair. For most pairs, it's the 4th decimal place (0.0001). For JPY pairs, it's the 2nd (0.01)." },
+  { term: "Lot", definition: "The size of a trade. 1 standard lot = 100,000 units, 1 mini lot = 10,000 units, 1 micro lot = 1,000 units." },
+  { term: "Leverage", definition: "Using borrowed capital to increase the potential return (and risk) of a trade. 1:100 leverage means you control $100 for every $1 in your account." },
+  { term: "Margin", definition: "The required collateral to maintain an open position using leverage." },
+  { term: "Spread", definition: "The difference between the Bid (Sell) price and the Ask (Buy) price. This is effectively the cost of the trade." },
+  { term: "Bullish", definition: "Expecting prices to rise. A 'bull' buys in anticipation of an uptrend." },
+  { term: "Bearish", definition: "Expecting prices to fall. A 'bear' sells in anticipation of a downtrend." },
+  { term: "Support", definition: "A price level where buying interest is strong enough to overcome selling pressure and stop a downtrend." },
+  { term: "Resistance", definition: "A price level where selling pressure is strong enough to overcome buying interest and stop an uptrend." },
+  { term: "Volatility", definition: "The degree of variation in a trading price series over time. High volatility means large price swings." },
+  { term: "Liquidity", definition: "The ability to buy or sell an asset quickly without causing a significant price change." },
+  { term: "Slippage", definition: "The difference between the expected price of a trade and the price at which the trade actually executes." },
+  { term: "Scalping", definition: "A trading style focused on making small profits on very short-term price movements." },
+  { term: "Swing Trading", definition: "A trading style where positions are held for several days to catch medium-term price 'swings'." },
+  { term: "Drawdown", definition: "The reduction of one's capital after a series of losing trades, measured as the peak-to-trough decline." },
+  { term: "FOMC", definition: "Federal Open Market Committee. The branch of the US Federal Reserve that makes decisions on interest rates." },
+  { term: "NFP", definition: "Non-Farm Payrolls. A key US economic indicator showing the change in the number of employed people (excluding farm workers)." },
+  { term: "Interest Rate", definition: "The cost of borrowing money or the reward for lending it. One of the primary drivers of currency value." },
+];
+// I will provide more terms as needed to reach the 200+ goal
